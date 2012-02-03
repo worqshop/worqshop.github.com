@@ -1,0 +1,38 @@
+body {
+background:#FDFDFD;
+}
+
+#header {
+height:53px;
+}
+
+#headerinner {
+height:53px;
+}
+
+#headerfade {
+top:50px;
+}
+
+#support .col1 {
+width:900px;
+}
+
+#support .col1 h5 {
+font-size:14px;
+font-weight: normal;
+color:#424242;
+letter-spacing: 1px;
+}
+
+a {
+color:#0E79EE;
+}
+
+a:hover {
+border-color:#0E79EE;
+}
+
+h2.heading span {
+color:#bababa;
+}

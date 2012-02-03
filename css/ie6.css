@@ -1,0 +1,22 @@
+#headerfade {
+display:none;
+}
+
+#contact form input {
+color:#555;
+}
+
+#contact ul#response {
+line-height:24px;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size:12px;
+color:#999;
+background: #FFF;
+display:block;
+border:2px solid #ccc;
+padding:10px;
+height:auto;
+position:static;
+text-align: center;
+}
