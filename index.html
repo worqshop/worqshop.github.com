@@ -47,9 +47,11 @@ DD_belatedPNG.fix('.screenshotcircles li');
 	<div id="header">
 		<div id="headerinner">
 			<ul id="nav">
-				<li><a href="#toabout">WORQSHOP</a></li>
-				<li><a href="#toapps">APPS</a></li>
-				<li><a href="#tosupport">SUPPORT</a></li>
+				<li><a href="#toabout">&middot;</a></li>
+				<li><a href="#tofeatures">FEATURES</a></li>
+				<li><a href="#toscreenshots">SCREENSHOTS</a></li>
+				<li><a href="#tofaqs">FAQS</a></li>
+				<li><a href="#toreleases">RELEASES</a></li>
 			</ul>
 			<!--
 			<div class="available">
@@ -74,11 +76,10 @@ DD_belatedPNG.fix('.screenshotcircles li');
 				<div class="col2 col">
 				
 					<!-- THE FIRST PARAGRAPH IN THE ABOUT SECTION, BIGGER THAN THE OTHERS -->
-					<h5>... is a small app that gives you a single text window for your note. Install it on your Mac, iPad, iPhone, or iPod touch; and your note is always kept up to date across all your devices. Easy.</h5>
-					
+					<h5>... is a small development environment for the iPad. It features a fast code editor with syntax highlighting and GitHub commit support.</h5>
 					<!-- THE SMALLER PARAGRAPHS -->
-					<p>SingleText works with iCloud. Just sign in to your iCloud account when you set up your Mac, iPad, iPhone, or iPod touch. And that's it. No other settings to configure, in fact, SingleText doesn't have settings.</p>
-					<p>Use it to share text between your devices. Your grocery list; to do items; the URL to that funny site; the phone number of that restaurant for dinner; the name of the girl that you just met. You don't need to worry about saving or filenames; just tap and type.</p>
+					<p>The editor is implemented using native iOS APIs like Core Text. It is fast, responsive, and it can edit large files, for example, a 10000-line source file. It features syntax highlighting for Python and Ruby files.</p>
+					<p>Worqshop can import projects from <a href="http://github.com/">GitHub</a> and commit modified files to the repositories. Use it to update your web content on <a href="http://pages.github.com/">GitHub Pages</a>. Use it to edit your project code files on the iPad and set up <a href="http://help.github.com/post-receive-hooks/">GitHub webhooks</a> for automatic deployment and so forth. Easy.</p>
 				</div>
 				
 				<div class="col3 col">
@@ -94,9 +95,39 @@ DD_belatedPNG.fix('.screenshotcircles li');
 			</div>
 		</div>
 		
-		<a name="toapps" id="toapps" href="#">&nbsp;</a>
-		<div id="apps" class="block">
-			<h2 class="heading">APPS<br><span>Mac &amp; iOS</span></h2>
+		<a name="tofeatures" id="tofeatures" href="#">&nbsp;</a>
+		<div id="features" class="block">
+			<h2 class="heading">Features</h2>
+
+			<div class="cols">
+				<div class="col1 col">
+					<h5>Code editor</h5>
+					<p>
+						<ul id="list">
+							<li>Written using native iOS APIs, e.g. Core Text.</li>
+							<li>Edit small or large files, e.g. 10000-line files.</li>
+							<li>Syntax highlighting support for Python and Ruby files.</li>
+							<li>Fast and responsive.</li>
+							<li>Autosave content during an editing session.</li>
+							<li>Standard editing commands such as cut, copy, and paste.</li>
+							<li>Type using the on-screen keyboard or an external keyboard.</li>
+						</ul>
+					</p>
+					<h5>GitHub integration</h5>
+					<p>
+						<ul id="list">
+							<li>Import GitHub projects to your iPad.</li>
+							<li>Commit modified files to GitHub repositories.</li>
+							<li>Show the status of files, whether they are modified or not.</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<a name="toscreenshots" id="toscreenshots" href="#">&nbsp;</a>
+		<div id="screenshots" class="block">
+			<h2 class="heading">Screenshots</h2>
 			<div class="workitems">
 			
 			<!-- ITEM 0 -->
@@ -124,9 +155,6 @@ DD_belatedPNG.fix('.screenshotcircles li');
 					<ul class="screenshots">
 						<li><a href="./images/shot-mac.png" alt="Screenshot"><img src="./images/shot-mac-t.png" alt="Screenshot"/></a></li>
 					</ul>
-					<h5>Mac</h5>
-					<p>Use SingleText for Mac to share URLs, text snippets, or phone numbers from your Mac to your iOS devices. Do you have a phone number that you want to call? Just copy it into the text window, quit the app, and open SingleText on your iPhone and tap the number. Easy.</p>
-					<p><a href="http://itunes.apple.com/us/app/singletext/id471095690?mt=12&uo=4" target="itunes_store" class="visit">AVAILABLE ON THE APP STORE</a></p>
 				</div>
 			<!-- END -->
 			
@@ -135,9 +163,6 @@ DD_belatedPNG.fix('.screenshotcircles li');
 					<ul class="screenshots">
 						<li><a href="./images/shot-ipad.png" alt="Screenshot"><img src="./images/shot-ipad-t.png" alt="Screenshot"/></a></li>
 					</ul>
-					<h5>iPad</h5>
-					<p>SingleText for iOS allows you to share the text over email or iMessage. Use SingleText on your iPad to compose the message; read it; and send it. Share your grocery list to your spouse, send your memorable quotes, or message your girlfriend. Simple.</p>
-					<p><a href="http://itunes.apple.com/us/app/singletext/id471061293?mt=8&uo=4" target="itunes_store" class="visit">AVAILABLE ON THE APP STORE</a></p>
 				</div>
 			<!-- END -->
 			
@@ -146,37 +171,74 @@ DD_belatedPNG.fix('.screenshotcircles li');
 					<ul class="screenshots">
 						<li><a href="./images/shot-ipod.png" alt="Screenshot"><img src="./images/shot-ipod-t.png" alt="Screenshot"/></a></li>
 					</ul>
-					<h5>iPhone / iPod touch</h5>
-					<p>SingleText for iOS comes with a built-in data detector for your text. Thus, it can detect phone numbers, URLs, addresses, and calendar events. Just tap the underlined text and it will open the corresponding app. Information at your fingertips.</p>
-					<p><a href="http://itunes.apple.com/us/app/singletext/id471061293?mt=8&uo=4" target="itunes_store" class="visit">AVAILABLE ON THE APP STORE</a></p>
+				</div>
+			<!-- END -->
+
+			<!-- ITEM 4 -->
+				<div class="item">
+					<ul class="screenshots">
+						<li><a href="./images/shot-mac.png" alt="Screenshot"><img src="./images/shot-mac-t.png" alt="Screenshot"/></a></li>
+					</ul>
 				</div>
 			<!-- END -->
 			
+			<!-- ITEM 5 -->
+				<div class="item">
+					<ul class="screenshots">
+						<li><a href="./images/shot-ipad.png" alt="Screenshot"><img src="./images/shot-ipad-t.png" alt="Screenshot"/></a></li>
+					</ul>
+				</div>
+			<!-- END -->
+			
+			<!-- ITEM 6 -->
+				<div class="item">
+					<ul class="screenshots">
+						<li><a href="./images/shot-ipod.png" alt="Screenshot"><img src="./images/shot-ipod-t.png" alt="Screenshot"/></a></li>
+					</ul>
+				</div>
+			<!-- END -->
+	
 			</div>
 		</div>
 		
-		<a name="tosupport" id="tosupport" href="#">&nbsp;</a>
-		<div id="support" class="block">
-			<h2 class="heading">SUPPORT<br><span>FAQ</span></h2>
+		<a name="tofaqs" id="tofaqs" href="#">&nbsp;</a>
+		<div id="faqs" class="block">
+			<h2 class="heading">FAQs</h2>
 
 			<div class="cols">
 				<div class="col1 col">
 					<h5>What are the system requirements?</h5>
-					<p>SingleText requires Mac OS X Lion (10.7.2) and iOS 5 with iCloud account (<em>Documents &amp; Data</em> sync enabled).</p>
-					<h5>How long do I need to wait until the text is synchronized?</h5>
-					<p>Generally, it's not very long. The text is synchronized almost immediately after you have finished the editing. But depending on the network traffic and iCloud, it may take up to 30 seconds for your <em>other</em> devices to receive the new text.</p>
-					<h5>How do I save or synchronize the text when I'm using SingleText for Mac?</h5>
-					<p>SingleText automatically saves text changes every ten seconds or when you quit the application.</p>
-					<h5>How much text can I write with SingleText?</h5>
-					<p>About one page of text or roughly about 500 words. SingleText is designed to store a small amount of text that you need to share between devices. Do not use SingleText to write a book, unless it's a very tiny book.</p>
-					<h5>How does SingleText resolve text conflicts?</h5>
-					<p>It doesn't. It assumes that you want to keep the newest text. Normally, this is what people want.</p>
-					<h5>Then, why do I want to use SingleText?</h5>
-					<p>Three words: simplicity, speed, and synchronization. You just need to tap and type; without worrying about saving, filenames, or other settings. And your text will be available on your Mac, iPad, iPhone, and iPod touch. Effortless!</p>
+					<p>Worqshop requires iPad or iPad 2 for faster performance and a <a href="https://github.com/plans">GitHub account</a>.</p>
+					<h5>Who are the Worqshop users?</h5>
+					<p>Worqshop is created for solo developers. At the moment, it is not suitable for developers working in a team.</p>
+					<h5>Does Worqshop support other GitHub operations (e.g. merge, update) or features (e.g. issues)?</h5>
+					<p>Not yet. But they may be added in future updates.</p>
+					<h5>How about themes, line number, or syntax highlighting for other files?</h5>
+					<p>They are not there yet. Let us know of new features that you want. We will try to incorporate them in future updates.</p>
+					<h5>Can you lower the price?</h5>
+					<p>No, the price covers future updates, e.g. new features or bug fixes, for version 1 of Worqshop; and you will get the updates for free.</p>
+					<h5>How do I contact you?</h5>
+					<p>Our contact details are listed on our <a href="http://worqbench.com/">site</a> or you can follow us on <a href="http://twitter.com/donny_k_">Twitter</a>.</p>
 				</div>
 			</div>
 		</div>
-		
+
+		<a name="toreleases" id="releases" href="#">&nbsp;</a>
+		<div id="releases" class="block">
+			<h2 class="heading">Releases</h2>
+
+			<div class="cols">
+				<div class="col1 col">
+					<h5>Version 1.0</h5>
+					<p>
+						<ul id="list">
+							<li>Initial release.</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+
 
 		<div id="footer">
 			<p>&copy; <a href="http://worqbench.com/">WORQBENCH</a> 2012</p>

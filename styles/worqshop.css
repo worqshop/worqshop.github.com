@@ -14,14 +14,11 @@ height:53px;
 top:50px;
 }
 
-#support .col1 {
+#features .col1, #faqs .col1, #releases .col1 {
 width:900px;
 }
 
-#support .col1 h5 {
-font-size:14px;
-font-weight: normal;
-color:#424242;
+#features .col1 h5, #faqs .col1 h5, #releases .col1 h5 {
 letter-spacing: 1px;
 }
 
@@ -35,4 +32,19 @@ border-color:#CA211E;
 
 h2.heading span {
 color:#bababa;
+}
+
+ul#list {
+list-style:circle;
+}
+
+ul#list li {
+margin:1px 1px 10px 20px;
+padding:1px 1px 1px 20px;
+}
+
+ul.screenshots li a img {
+border-width:1px;
+border-color:#CA211E;
+border-style:solid;
 }
