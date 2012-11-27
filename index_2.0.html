@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Worqshop</title>
+	
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/base.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/media.queries.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/tipsy.css" />
+	<link rel="stylesheet" type="text/css" href="javascripts/fancybox/jquery.fancybox-1.3.4.css" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Quicksand:400,700,300">
+	
+	<!-- Javascripts -->
+	<script type="text/javascript" src="javascripts/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="javascripts/html5shiv.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.tipsy.js"></script>
+	<script type="text/javascript" src="javascripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.touchSwipe.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.mobilemenu.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.infieldlabel.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.echoslider.js"></script>
+	<script type="text/javascript" src="javascripts/fluidapp.js"></script>
+	
+	<!-- Favicons -->
+	<!--<link rel="shortcut icon" href="images/favicon.png" />-->
+	<!--
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.html">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.html">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.html">
+	-->
+
+<!-- Google Analytics -->   
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15879369-7']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+<body>
+	<!-- Start Wrapper -->
+	<div id="page_wrapper">
+		
+	<!-- Start Header -->
+	<header>
+		<div class="container">
+			<!-- Start Social Icons -->
+			<aside>
+				<ul class="social">
+					<li class="twitter"><a href="http://twitter.com/donny_k_">Twitter</a></li>
+					<!-- More Social Icons:
+					<li class="email"><a href="#" title="info@two2twelve.com">Email</a></li>
+					<li class="rss"><a href="#" title="App Updates">RSS</a></li>
+					<li class="facebook"><a href="#">Facebook</a></li>
+					<li class="dribbble"><a href="">Dribbble</a></li>
+					<li class="google"><a href="">Google</a></li>
+					<li class="flickr"><a href="">Flickr</a></li>
+					-->
+				</ul>
+			</aside>
+			<!-- End Social Icons -->
+			
+			<!-- Start Navigation -->
+			<nav>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#screenshots">Screenshots</a></li>
+					<li><a href="#updates">Updates</a></li>
+					<li><a href="#support">Support</a></li>
+					<li><a href="#team">Team</a></li>
+					<!--<li><a href="#press">Press</a></li>-->
+					<!--<li><a href="#contact">Contact</a></li>-->
+					<!--<li><a href="#styles">Styles</a></li>-->
+				</ul>
+				<span class="arrow"></span>
+			</nav>
+			<!-- End Navigation -->
+		</div>
+	</header>
+	<!-- End Header -->
+	
+	<section class="container">
+		
+		<!-- Start App Info -->
+		<div id="app_info">
+			<!-- Start Logo -->
+			<a href="#home" class="logo">
+				<img src="images/logo.png" alt="Worqshop" />
+			</a>
+			<!-- End Logo -->
+			<!--<span class="tagline">Software development on your iPad</span>-->
+			<p><strong>Worqshop</strong> is a small development environment for the iPad with GitHub and Heroku support. It features a fast code editor with syntax highlighting for Python, Ruby, HTML, CSS, and JavaScript files.</p>
+			
+			<!--
+			<div class="buttons">
+				<a href="#" class="large_button" id="android">
+					<span class="icon"></span>
+					<em>Download now for</em> iPhone
+				</a>
+			</div>
+			-->
+			
+			<a href="http://itunes.apple.com/us/app/worqshop/id499843958?ls=1&mt=8">
+				<img src="images/app_store.png" alt="App Store" />
+			</a>
+
+			<!--
+			<div class="price centered">
+				<p>Just US$2.99 for a limited time!</p>
+			</div>
+			-->
+		</div>
+		<!-- End App Info -->		
+		
+		<!-- Start Pages -->
+		<div id="pages">
+			<div class="top_shadow"></div>
+			
+			<!-- Start Home -->
+			<div id="home" class="page">
+				
+				<div id="slider">
+
+					<!--
+					<div class="slide" data-effect-out="slide">
+						
+						<div class="background iphone-white">
+							<img src="images/slider/iphone-back.jpg" alt="" />
+						</div>
+						
+						<div class="foreground iphone-white">
+							<img src="images/slider/iphone-front.jpg" alt="" />
+						</div>
+						
+					</div>
+					
+					<div class="slide" data-effect-in="slide">
+						
+						<div class="background iphone-black">
+							<img src="images/slider/iphone-back.jpg" alt="" />
+						</div>
+						
+						<div class="foreground iphone-black">
+							<iframe src="http://player.vimeo.com/video/40738306?title=0&amp;byline=0&amp;portrait=0" width="230" height="345" frameborder="0"></iframe>
+						</div>
+						
+					</div>
+				
+					<div class="slide">
+						
+						<div class="background blackberry">
+							<img src="images/slider/blackberry-back.jpg" alt="" />
+						</div>
+						
+						<div class="foreground blackberry">
+							<img src="images/slider/blackberry-front.jpg" alt="" />
+						</div>
+						
+					</div>
+					
+					<div class="slide">
+						
+						<div class="background android">
+							<img src="images/slider/android-back.jpg" alt="" />
+						</div>
+						
+						<div class="foreground android">
+							<img src="images/slider/android-back.jpg" alt="" />
+						</div>
+						
+					</div>
+					-->
+	
+					<div class="slide">
+						
+						<div class="background ipad-black">
+							<img src="images/slider/ipad2.jpg" alt="" />
+						</div>
+												
+					</div>
+					
+					<div class="slide">
+						
+						<div class="background ipad-black">
+							<img src="images/slider/ipad1.jpg" alt="" />
+<!--<iframe id="ytplayer" type="text/html" width="352" height="468" src="http://www.youtube.com/embed/u1zgFlCw8Aw?autohide=1" frameborder="0"></iframe>-->
+						</div>
+												
+					</div>
+
+					<div class="slide">
+						
+						<div class="background transparent-device">
+							<img src="images/slider/companies.png" alt="" />
+						</div>
+												
+					</div>
+					
+				</div>
+			
+			</div>
+			<!-- End Home -->
+			
+			<!-- Start Team -->
+			<div id="team" class="page">
+				
+				<h1>Team</h1>
+				
+				<div class="about_us content_box">
+					<div class="full">
+						<h2>About Us</h2>
+						<p>Worqshop is developed by <a href="http://worqbench.com/">Worqbench</a>, a small development studio based in Melbourne, Australia. Worqbench was founded in 2009 by Donny Kurniawan, a small guy. He is a geek and he likes to <a href="https://github.com/donny">program</a> and his code can be found in Eclipse PTP and Cray Comparative Debugger. He did his <a href="http://www.worqbench.com/academic/index.html">PhD</a> by building a debugger and an integrated development environment for remote computers. Sounds familiar? Well, you're in good hands.</p>
+					</div>
+				</div>
+				
+				<div class="team_members">
+					<div class="person one_half">
+							<a href="images/self1.png" class="fancybox" title=""><img src="images/self1.png" alt="" /></a>
+		
+						<h3>Donny Kurniawan</h3>
+						<span>Founder / Developer</span>
+						<a href="http://twitter.com/donny_k_">@donny_k_</a>
+					</div>
+
+                    <div class="one_half column_last">
+							<a href="images/selfmap.png" class="fancybox" title=""><img src="images/selfmap.png" alt="" /></a>
+                    </div>
+
+					<!--
+					<div class="person one_half">
+						<img src="images/about-team_3.png" alt="" />
+						<h3>John Doe</h3>
+						<span>UI/UX Expert</span>
+						<a href="#">http://website.com</a>
+						<ul class="social">
+							<li class="facebook"><a href="#">Facebook</a></li>
+							<li class="twitter"><a href="#">Twitter</a></li>
+							<li class="dribbble"><a href="#">Dribbble</a></li>
+						</ul>
+					</div>
+					<div class="person one_half column_last">
+						<img src="images/about-team_4.png" alt="" />
+						<h3>Mary Smith</h3>
+						<span>Support</span>
+						<a href="#">http://website.com</a>
+						<ul class="social">
+							<li class="facebook"><a href="#">Facebook</a></li>
+							<li class="twitter"><a href="#">Twitter</a></li>
+							<li class="dribbble"><a href="#">Dribbble</a></li>
+						</ul>
+					</div>
+					-->
+				</div>
+				
+			</div>
+			<!-- End Team -->
+				
+			<!-- Start Features -->
+			<div id="features" class="page">
+				
+				<h1>Features</h1>
+				
+				<div class="feature_list content_box">
+					<div class="full">
+						<h2>GitHub Support</h2>
+						<p>Worqshop can import projects from <a href="http://github.com/">GitHub</a> and commit modified files to the repositories. Use it to update your web content on <a href="http://pages.github.com/">GitHub Pages</a>. Use it to edit your project code files on the iPad and set up <a href="http://help.github.com/post-receive-hooks/">GitHub webhooks</a> for automatic deployment and so forth. Easy.</p>
+					</div>
+
+					<div class="full">
+						<h2>Heroku Support*</h2>
+						<p>With the <a href="http://heroku.com/">Heroku</a> add-on, Worqshop projects can be deployed to one of the most popular cloud application platforms. Just enter your <a href="https://api-docs.heroku.com/">Heroku API key</a>, select the application, and that's it. Instant deployment. *The Heroku add-on can be added by purchasing a 3-month subscription service.</p>
+					</div>
+
+					<div class="full">
+						<h2>StackMob and AppHarbor Support</h2>
+						<p>Just set up <a href="http://help.github.com/post-receive-hooks/">GitHub webhooks</a> with <a href="http://stackmob.com/devcenter/docs/StackMob-Hosted-HTML5:-GitHub">StackMob</a> or <a href="http://blog.appharbor.com/2011/10/13/announcing-github-support">AppHarbor</a>; and commit your code with Worqshop. It's hassle-free deployment for your <a href="http://www.stackmob.com/">HTML5</a>, <a href="https://appharbor.com/">.NET</a>, and <a href="http://blog.appharbor.com/2012/01/19/announcing-node-js-support">Node.js</a> applications.</p>
+					</div>
+
+					<div class="full">
+						<h2>Fast Code Editor</h2>
+						<p>The editor is implemented using native iOS APIs like Core Text. It is fast, responsive, and it can edit large files, for example, a 10000-line source file. It features syntax highlighting for Python, Ruby, HTML, CSS, and JavaScript files.</p>
+					</div>
+
+					<!--
+					<div class="one_half">
+						<h2 class="icon chart">Measure Stuff</h2>
+						<p>Nullam quis</p>
+					</div>
+
+					<div class="one_half column_last">
+						<h2 class="icon cart">Buy Things</h2>
+						<p>Nullam quis</p>
+					</div>
+					-->
+
+				</div>
+
+				<div class="toggle_list">
+					<ul>
+						<li>
+							<div class="title">
+								<h3>Features in Detail</h3>
+								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
+							</div>
+							<div class="content">
+
+							<article class="release">
+							<h5>GitHub Integration</h5>
+								<ul>
+									<li>Import GitHub projects to your iPad.</li>
+									<li>Create new files and folders in your GitHub projects.</li>
+									<li>Support for private and public repositories.</li>
+									<li>Support for GitHub collaborators.</li>
+									<li>Commit modified files to GitHub repositories.</li>
+									<li>Show the status of files, whether they are modified or not.</li>
+								</ul>
+							</article>
+
+							<article class="release">
+							<h5>Heroku Integration*</h5>
+								<ul>
+									<li>Deploy your projects to Heroku.</li>
+									<li>Get the deployment status as push notifications.</li>
+									<li>*The Heroku add-on can be purchased as a 3-month subscription.</li>
+								</ul>
+							</article>
+
+							<article class="release">
+							<h5>Code Editor</h5>
+								<ul>
+									<li>Written using native iOS APIs, e.g. Core Text.</li>
+									<li>Edit small or large files, e.g. 10000-line files.</li>
+									<li>Syntax highlighting support for Python, Ruby, HTML, CSS, and JavaScript files.</li>
+									<li>Fast and responsive.</li>
+									<li>Easy access to multiple files with editor tabs.</li>
+									<li>Autosave content during an editing session.</li>
+									<li>Standard editing commands such as cut, copy, and paste.</li>
+									<li>Type using the on-screen keyboard or an external keyboard.</li>
+								</ul>
+							</article>
+
+							<article class="release">
+							<h5>Miscellaneous</h5>
+								<ul>
+									<li>The library view that shows the programming language reference.</li>
+								</ul>
+							</article>
+
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+			<!-- End Features -->		
+			
+			<!-- Start Screenshots -->
+			<div id="screenshots" class="page">
+				
+				<h1>Screenshots</h1>
+				
+				<div class="screenshot_grid content_box">
+					
+					<div class="one_third">
+						<a href="images/screenshots/screen1.png" class="fancybox" rel="group" title="Screenshot 1"><img src="images/screenshots/screen1.png" alt="" /></a>
+					</div>
+
+					<div class="one_third">
+						<a href="images/screenshots/screen2.png" class="fancybox" rel="group" title="Screenshot 2"><img src="images/screenshots/screen2.png" alt="" /></a>
+					</div>
+					
+					<div class="one_third column_last">
+						<a href="images/screenshots/screen3.png" class="fancybox" rel="group" title="Screenshot 3"><img src="images/screenshots/screen3.png" alt="" /></a>
+					</div>
+					
+					<div class="one_third">
+						<a href="images/screenshots/screen4.png" class="fancybox" rel="group" title="Screenshot 4"><img src="images/screenshots/screen4.png" alt="" /></a>
+					</div>
+
+					<div class="one_third">
+						<a href="images/screenshots/screen5.png" class="fancybox" rel="group" title="Screenshot 5"><img src="images/screenshots/screen5.png" alt="" /></a>
+					</div>
+					
+					<div class="one_third column_last">
+						<a href="images/screenshots/screen6.png" class="fancybox" rel="group" title="Screenshot 6"><img src="images/screenshots/screen6.png" alt="" /></a>
+					</div>
+					
+					<div class="one_third">
+						<a href="images/screenshots/screen7.png" class="fancybox" rel="group" title="Screenshot 7"><img src="images/screenshots/screen7.png" alt="" /></a>
+					</div>
+
+					<div class="one_third">
+						<a href="images/screenshots/screen8.png" class="fancybox" rel="group" title="Screenshot 8"><img src="images/screenshots/screen8.png" alt="" /></a>
+					</div>
+					
+					<div class="one_third column_last">
+						<a href="images/screenshots/screen9.png" class="fancybox" rel="group" title="Screenshot 9"><img src="images/screenshots/screen9.png" alt="" /></a>
+					</div>
+					
+				</div>
+				
+			</div>
+			<!-- End Screenshots -->
+						
+			<!-- Start Updates -->
+			<div id="updates" class="page">
+				
+				<h1>Updates</h1>
+				
+				<div class="releases">
+					<article class="release">
+						<h2>Version 1.2.2</h2>
+						<span class="date">Released on July 4th, 2012</span>
+						<ul>
+							<li class="new"><span><b>New</b></span> Support for executing small Python or Ruby scripts through add-ons</li>
+							<li class="new"><span><b>New</b></span> Font size setting for the editor</li>
+							<li class="new"><span><b>New</b></span> Editor themes with built-in and user-defined themes</li>
+							<li class="new"><span><b>New</b></span> Keyboard shortcuts with built-in and user-defined shortcuts</li>
+							<li class="change"><span><b>Change</b></span> The project button title, New Project, becomes Import Project</li>
+							<li class="change"><span><b>Change</b></span> The toolbar layout of the main view</li>
+							<li class="fix"><span><b>Fix</b></span> Status report in the Heroku deployment dialog</li>
+							<li class="fix"><span><b>Fix</b></span> The application memory usage</li>
+							<li class="fix"><span><b>Fix</b></span> A possible syntax highlighting error with large code files</li>
+						</ul>
+					</article>
+
+					<article class="release">
+						<h2>Version 1.2.1</h2>
+						<span class="date">Released on May 21st, 2012</span>
+						<ul>
+							<li class="fix"><span><b>Fix</b></span> Possible crashes when the GitHub account contains empty projects</li>
+						</ul>
+					</article>
+
+					<article class="release">
+						<h2>Version 1.2</h2>
+						<span class="date">Released on May 20th, 2012</span>
+						<ul>
+							<li class="new"><span><b>New</b></span> Support for Heroku deployment through add-ons</li>
+							<li class="new"><span><b>New</b></span> Add-ons system with in-app purchase</li>
+							<li class="new"><span><b>New</b></span> Push notification support</li>
+							<li class="fix"><span><b>Fix</b></span> Tab handling in the text view</li>
+						</ul>
+					</article>
+
+					<article class="release">
+						<h2>Version 1.1.1</h2>
+						<span class="date">Released on April 28th, 2012</span>
+						<ul>
+							<li class="new"><span><b>New</b></span> Support for creating new files and folders</li>
+							<li class="new"><span><b>New</b></span> Support for GitHub collaborators</li>
+							<li class="new"><span><b>New</b></span> Image files for Retina display-capable devices</li>
+							<li class="change"><span><b>Change</b></span> The modal dialog of importing and committing</li>
+							<li class="fix"><span><b>Fix</b></span> A bug in committing to a branch</li>
+							<li class="fix"><span><b>Fix</b></span> Keyboard and text view rotation bugs</li>
+							<li class="fix"><span><b>Fix</b></span> Usability issues</li>
+						</ul>
+					</article>
+
+					<article class="release">
+						<h2>Version 1.1</h2>
+						<span class="date">Released on March 13th, 2012</span>
+						<ul>
+							<li class="new"><span><b>New</b></span> Support for multiple editor tabs</li>
+							<li class="new"><span><b>New</b></span> Icons for folders, files, and modified files</li>
+							<li class="new"><span><b>New</b></span> Library view for language API reference</li>
+							<li class="new"><span><b>New</b></span> Help view</li>
+							<li class="change"><span><b>Change</b></span> The user interface</li>
+							<li class="change"><span><b>Change</b></span> The project browser becomes the project carousel view</li>
+							<li class="change"><span><b>Change</b></span> The file browser becomes the navigator view</li>
+							<li class="fix"><span><b>Fix</b></span> Prevent users from signing in using an email address</li>
+						</ul>
+					</article>
+					
+					<article class="release">
+						<h2>Version 1.0.1</h2>
+						<span class="date">Released on March 4th, 2012</span>
+						<ul>
+							<li class="new"><span><b>New</b></span> Support for private repositories</li>
+							<li class="new"><span><b>New</b></span> Syntax highlighting for HTML, CSS, and JavaScript files</li>
+							<li class="new"><span><b>New</b></span> Version information in the Settings</li>
+							<li class="fix"><span><b>Fix</b></span> A possible data corruption when dealing with binary files</li>
+							<li class="fix"><span><b>Fix</b></span> An issue with the keyboard hiding the text view</li>
+							<li class="fix"><span><b>Fix</b></span> An issue with the loupe view for non portrait orientation</li>
+							<li class="fix"><span><b>Fix</b></span> The application memory usage</li>
+						</ul>
+					</article>
+					
+					<article class="release">
+						<h2>Version 1.0</h2>
+						<span class="date">Released on February 21st, 2012</span>
+						<ul>
+							<li class="new"><span><b>New</b></span> Initial release</li>
+						</ul>
+					</article>
+				</div>
+				
+			</div>
+			<!-- End Updates -->
+					
+			<!-- Start Support -->
+			<div id="support" class="page">
+				
+				<h1>Support</h1>
+				
+				<div class="toggle_list">
+					<ul>
+						<li class="opened"> <!-- Use class "opened" to expand a toggle on page load -->
+							<div class="title">
+								<h3><span>Q.</span> How do I contact you for feedback or bug reports?</h3>
+								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
+							</div>
+							<div class="content">
+								<p>Our contact details are listed on our <a href="http://worqbench.com/">site</a> or you can follow us on <a href="http://twitter.com/donny_k_">Twitter</a>.</p>
+								<p>We are always happy to help our users and receive their comments.</p>
+							</div>
+						</li>
+						<li>
+							<div class="title">
+								<h3><span>Q.</span> What are the system requirements?</h3>
+								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
+							</div>
+							<div class="content">
+								<p>Worqshop requires an iPad with iOS 5 and a <a href="https://github.com/plans">GitHub account</a>.</p>
+							</div>
+						</li>
+						<li>
+							<div class="title">
+								<h3><span>Q.</span> Who are the Worqshop users?</h3>
+								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
+							</div>
+							<div class="content">
+								<p>Worqshop is created for solo developers. At the moment, it is not suitable for developers working in a team.</p>
+							</div>
+						</li>
+						<li>
+							<div class="title">
+								<h3><span>Q.</span> Does Worqshop support other GitHub operations (e.g. merge, pull) or features (e.g. issues)?</h3>
+								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
+							</div>
+							<div class="content">
+								<p>Not yet. But they may be added in future updates.</p>
+							</div>
+						</li>
+						<li>
+							<div class="title">
+								<h3><span>Q.</span> How about themes, line number, or syntax highlighting for other files?</h3>
+								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
+							</div>
+							<div class="content">
+								<p>They are not there yet. Let us know of new features that you want. We will try to incorporate them in future updates.</p>
+							</div>
+						</li>
+						<li>
+							<div class="title">
+								<h3><span>Q.</span> Do you upload my project data to your server?</h3>
+								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
+							</div>
+							<div class="content">
+								<p>In the case of GitHub operations, no, we don't upload your project data to our server. Your project files are sent directly to GitHub. However, when you deploy your project to Heroku, we upload it to our server for the deployment. This is strictly done because of a technical limitation. Heroku only accepts deployment through Git but at the moment there is no Git remote support that can be incorporated into Worqshop.</p>
+								<p>Whilst we continue to try to find a better solution, deployment to Heroku requires our server.</p>
+								<p><strong>We respect your privacy</strong>. Project files submitted to our server are only used for the Heroku deployment. We do not read the source code files and we do not disclose them to other parties. The files are removed from the server periodically.</p>
+							</div>
+						</li>
+						<li>
+							<div class="title">
+								<h3><span>Q.</span> Can you lower the price?</h3>
+								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
+							</div>
+							<div class="content">
+								<p>No, the price covers future updates, e.g. new features or bug fixes, for version 1 of Worqshop; and you will get the updates for free.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+			<!-- End Support -->
+	
+			<!-- Start Press -->
+			<!--
+			<div id="press" class="page">
+				
+				<h1>Press</h1>
+				
+				<div class="press_mentions">
+					<ul>
+						<li>
+							<div class="logo">
+								<img src="images/light-press.png" alt="" />
+							</div>
+							<div class="details">
+								<p>"The best mobile app website you’ve ever seen!"</p>
+								<address>
+									Jane Doe
+									<a href="#">http://website.com &#x2192;</a>
+								</address>
+							</div>
+						</li>	
+						<li>
+							<div class="logo">
+								<img src="images/light-press.png" alt="" />
+							</div>
+							<div class="details">
+								<p>"Cras mattis consectetur purus sit amet fermentum."</p>
+								<address>
+									Jane Doe
+									<a href="#">http://website.com &#x2192;</a>
+								</address>
+							</div>
+						</li>
+						<li>
+							<div class="logo">
+								<img src="images/light-press.png" alt="" />
+							</div>
+							<div class="details">
+								<p>"Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo."</p>
+								<address>
+									Jane Doe
+									<a href="#">http://website.com &#x2192;</a>
+								</address>
+							</div>
+						</li>
+						<li>
+							<div class="logo">
+								<img src="images/light-press.png" alt="" />
+							</div>
+							<div class="details">
+								<p>"Vivamus sagittis vel augue rutrum faucibus dolor."</p>
+								<address>
+									Jane Doe
+									<a href="#">http://website.com &#x2192;</a>
+								</address>
+							</div>
+						</li>
+						<li>
+							<div class="logo">
+								<img src="images/light-press.png" alt="" />
+							</div>
+							<div class="details">
+								<p>"Maecenas faucibus mollis interdum."</p>
+								<address>
+									Jane Doe
+									<a href="#">http://website.com &#x2192;</a>
+								</address>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+			-->
+			<!-- End Press -->
+			
+			<!-- Start Contact -->
+			<!--
+			<div id="contact" class="page">
+				
+				<h1>Contact</h1>
+				
+				<p>For general questions, bug reports or press inquires please fill out the form below.</p>
+				
+				<div id="contact_form">
+					
+					<div class="validation">
+						<p>Oops! Please correct the highlighted fields...</p>
+					</div>
+
+					<div class="success">
+						<p>Thanks! I'll get back to you shortly.</p>
+					</div>
+				
+					<form action="javascript:;" method="post">
+						<div class="row">
+							<p class="left">
+								<label for="name">Name*</label>
+								<input type="text" name="name" id="name" value="" />
+							</p>
+							<p class="right">
+								<label for="email">Email*</label>
+								<input type="text" name="email" id="email" value="" />
+							</p>
+						</div>
+					
+						<div class="row">
+							<p class="left">
+								<label for="website">Website</label>
+								<input type="text" name="website" id="website" value="" />
+							</p>
+							<p class="right">
+								<label for="subject">Subject</label>
+								<input type="text" name="subject" id="subject" value="" />
+							</p>
+						</div>
+					
+						<p>
+							<label for="message" class="textarea">Message</label>
+							<textarea class="text" name="message" id="message"></textarea>
+						</p>
+					
+						<input type="submit" class="button white" value="Send &#x2192;" />
+					</form>
+				
+				</div>
+				
+			</div>
+			-->
+			<!-- End Contact -->
+			
+			<!-- Start Styles -->
+			<div id="styles" class="page">
+				
+				<h1>Styles</h1>
+				
+				<div class="full">
+					<h1>h1. Nullam id dolor id nibh ultricies.</h1>
+					<h2>h2. Nullam id dolor id nibh ultricies.</h2>
+					<h3>h3. Nullam id dolor id nibh ultricies.</h3>
+					<h4>h4. Nullam id dolor id nibh ultricies.</h4>
+					<h5>h5. Nullam id dolor id nibh ultricies.</h5>
+					<h6>h6. Nullam id dolor id nibh ultricies.</h6>
+				</div>
+				
+				<h2>Blockquotes</h2>
+				
+				<div class="one_half">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				</div>
+
+				<div class="one_half column_last">
+					<blockquote>
+					  <p>This is a blockquote style example. It's cool.</p>
+					  <cite>Some Dude, Some Website</cite>
+					</blockquote>
+				</div>
+				
+				<div class="full">
+				
+					<h2>Small Buttons</h2>
+				
+					<a href="#" class="button black">Black</a>
+					<a href="#" class="button white">White</a>
+					<a href="#" class="button gray">Gray</a>
+					<a href="#" class="button orange">Orange</a>
+					<a href="#" class="button blue">Blue</a>
+					<a href="#" class="button green">Green</a>
+					<a href="#" class="button pink">Pink</a>			
+					<a href="#" class="button purple">Purple</a>
+				
+				</div>
+				
+				<div class="full">
+					
+					<h2>Large Buttons</h2>
+
+					<a href="#" class="large_button" id="apple">
+						<span class="icon"></span>
+						<em>Download now for</em> iPhone
+					</a>
+					<a href="#" class="large_button" id="android">
+						<span class="icon"></span>
+						<em>Download now for</em> Android
+					</a>
+					<a href="#" class="large_button" id="windows">
+						<span class="icon"></span>
+						<em>Download now for</em> Windows
+					</a>
+					<a href="#" class="large_button" id="blackberry">
+						<span class="icon"></span>
+						<em>Download now for</em> Blackberry
+					</a>
+					
+				</div>
+				
+				<h2>Columns</h2>
+				
+				<div class="one_half">
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+				</div>
+				
+				<div class="one_half column_last">
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+				</div>
+				
+				<div class="one_third">
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+				</div>
+				
+				<div class="one_third">
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+				</div>
+				
+				<div class="one_third column_last">
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+				</div>
+				
+				<div class="one_third">
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				
+				<div class="two_thirds column_last">
+					<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum.</p>
+				</div>
+				
+				<h2>Toggle Lists</h2>
+				
+				<div class="toggle_list">
+					<ul>
+						<li class="opened"> <!-- Use class "opened" to expand a toggle on page load -->
+							<div class="title">
+								<h3><span>Q.</span> What are the requirements for using this app?</h3>
+								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
+							</div>
+							<div class="content">
+								<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							</div>
+						</li>
+						<li>
+							<div class="title">
+								<h3><span>Q.</span> How does it work?</h3>
+								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
+							</div>
+							<div class="content">
+								<p>Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+							</div>
+						</li>
+						<li>
+							<div class="title">
+								<h3><span>Q.</span> How much does it cost?</h3>
+								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
+							</div>
+							<div class="content">
+								<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<h2>Lightbox Images</h2>
+				
+				<div class="one_third">
+					<a href="images/screenshots/screen1.png" rel="screenshots" class="fancybox" title=""><img src="images/screenshots/screen1.png" alt="" /></a>
+				</div>
+				<div class="one_third">
+					<a href="images/screenshots/screen2.png" rel="screenshots" class="fancybox" title=""><img src="images/screenshots/screen2.png" alt="" /></a>
+				</div>
+				<div class="one_third column_last">
+					<a href="images/screenshots/screen3.png" rel="screenshots" class="fancybox" title=""><img src="images/screenshots/screen3.png" alt="" /></a>
+				</div>
+				
+				<div class="full">
+				
+					<h2>Tooltips</h2>
+				
+					<p>Cras justo odio, dapibus ac <a href="javascript:;" rel="tipsy" title="Example Tooltip">facilisis</a> in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna <a href="javascript:;" rel="tipsy" title="An even longer tooltip! <br/> With more stuff!">mollis ornare</a> vel eu leo.</p>
+				
+				</div>
+				
+			</div>
+			<!-- End Styles -->
+			
+			<div class="bottom_shadow"></div>
+		</div>
+		<!-- End Pages -->
+		
+		<div class="clear"></div>
+	</section>
+	
+	<!-- Start Footer -->
+	<footer class="container">
+		<p>Worqbench &copy; 2012. All rights reserved.</p>
+	</footer>
+	<!-- End Footer -->
+	
+	</div>
+	<!-- End Wrapper -->
+	<!-- <div class="resize"></div> -->
+</body>
+
+</html>
