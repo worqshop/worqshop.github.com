@@ -100,7 +100,7 @@
 			</a>
 			<!-- End Logo -->
 			<!--<span class="tagline">Software development on your iPad</span>-->
-			<p><strong>Worqshop</strong> is a small development environment for the iPad with GitHub and Heroku support. It features a fast code editor with syntax highlighting for Python, Ruby, HTML, CSS, and JavaScript files.</p>
+			<p><strong>Worqshop</strong> is a small development environment for the iPad and iPhone with GitHub support. It supports GitHub repositores, gists, and issues. It features a fast code editor with syntax highlighting.</p>
 			
 			<!--
 			<div class="buttons">
@@ -112,7 +112,14 @@
 			-->
 			
 			<a href="http://itunes.apple.com/us/app/worqshop/id499843958?ls=1&mt=8">
-				<img src="images/app_store.png" alt="App Store" />
+				<img src="images/appstore_ipad.png" alt="App Store" />
+			</a>
+
+            <br/>
+            <br/>
+
+			<a href="http://itunes.apple.com/us/app/worqshop/id583617056?ls=1&mt=8">
+				<img src="images/appstore_iphone.png" alt="App Store" />
 			</a>
 
 			<!--
@@ -185,7 +192,7 @@
 					<div class="slide">
 						
 						<div class="background ipad-black">
-							<img src="images/slider/ipad2.jpg" alt="" />
+							<img src="images/slider/2.0/ipad1.png" alt="" />
 						</div>
 												
 					</div>
@@ -193,7 +200,15 @@
 					<div class="slide">
 						
 						<div class="background ipad-black">
-							<img src="images/slider/ipad1.jpg" alt="" />
+							<img src="images/slider/2.0/ipad2.png" alt="" />
+						</div>
+												
+					</div>
+					
+					<div class="slide">
+						
+						<div class="background ipad-black">
+							<img src="images/slider/2.0/ipad3.png" alt="" />
 <!--<iframe id="ytplayer" type="text/html" width="352" height="468" src="http://www.youtube.com/embed/u1zgFlCw8Aw?autohide=1" frameborder="0"></iframe>-->
 						</div>
 												
@@ -201,12 +216,28 @@
 
 					<div class="slide">
 						
-						<div class="background transparent-device">
-							<img src="images/slider/companies.png" alt="" />
+						<div class="background iphone-black">
+							<img src="images/slider/2.0/iphone1.png" alt="" />
+						</div>
+												
+						<div class="foreground iphone-black">
+							<img src="images/slider/2.0/iphone2.png" alt="" />
 						</div>
 												
 					</div>
 					
+					<div class="slide">
+						
+						<div class="background iphone-black">
+							<img src="images/slider/2.0/iphone3.png" alt="" />
+						</div>
+												
+						<div class="foreground iphone-black">
+							<img src="images/slider/2.0/iphone4.png" alt="" />
+						</div>
+												
+					</div>
+
 				</div>
 			
 			</div>
@@ -274,12 +305,8 @@
 				<div class="feature_list content_box">
 					<div class="full">
 						<h2>GitHub Support</h2>
-						<p>Worqshop can import projects from <a href="http://github.com/">GitHub</a> and commit modified files to the repositories. Use it to update your web content on <a href="http://pages.github.com/">GitHub Pages</a>. Use it to edit your project code files on the iPad and set up <a href="http://help.github.com/post-receive-hooks/">GitHub webhooks</a> for automatic deployment and so forth. Easy.</p>
-					</div>
-
-					<div class="full">
-						<h2>Heroku Support*</h2>
-						<p>With the <a href="http://heroku.com/">Heroku</a> add-on, Worqshop projects can be deployed to one of the most popular cloud application platforms. Just enter your <a href="https://api-docs.heroku.com/">Heroku API key</a>, select the application, and that's it. Instant deployment. *The Heroku add-on can be added by purchasing a 3-month subscription service.</p>
+						<p>Worqshop can import projects from <a href="http://github.com/">GitHub</a> and commit modified files to the repositories. Use it to update your web content on <a href="http://pages.github.com/">GitHub Pages</a>. Use it to edit your project code files on your iOS device and set up <a href="http://help.github.com/post-receive-hooks/">GitHub webhooks</a> for automatic deployment and so forth. Easy.</p>
+                        <p>Worqshop supports GitHub gists and issues. Use it to import or create gists on your iOS device and save the changes to GitHub. Show and edit GitHub issues for your repositories.</p>
 					</div>
 
 					<div class="full">
@@ -289,7 +316,12 @@
 
 					<div class="full">
 						<h2>Fast Code Editor</h2>
-						<p>The editor is implemented using native iOS APIs like Core Text. It is fast, responsive, and it can edit large files, for example, a 10000-line source file. It features syntax highlighting for Python, Ruby, HTML, CSS, and JavaScript files.</p>
+                        <p>The editor is implemented using native iOS APIs like Core Text. It is fast, responsive, and it can edit large files, for example, a 10000-line source file. It features syntax highlighting for Python, Ruby, HTML, CSS, JavaScript, C, Java, Objective-C, and PHP files.</p>
+					</div>
+
+					<div class="full">
+						<h2>Assistant View</h2>
+                        <p>Worqshop for iPad comes with an assistant view. It can show a secondary tabbed editor, a web browser, or a reference manual view. Use the additional editor to show and edit another file. Use the web browser to show <a href="http://stackoverflow.com/">Stack Overflow</a> answers. Use the reference view to show manuals for your files automatically. Your helper is right next to you.</p>
 					</div>
 
 					<!--
@@ -318,21 +350,17 @@
 							<article class="release">
 							<h5>GitHub Integration</h5>
 								<ul>
-									<li>Import GitHub projects to your iPad.</li>
-									<li>Create new files and folders in your GitHub projects.</li>
+									<li>Import or create GitHub repositories.</li>
+									<li>Create new files and folders in your GitHub repositories.</li>
 									<li>Support for private and public repositories.</li>
+									<li>Support for organization repositories.</li>
 									<li>Support for GitHub collaborators.</li>
 									<li>Commit modified files to GitHub repositories.</li>
 									<li>Show the status of files, whether they are modified or not.</li>
-								</ul>
-							</article>
-
-							<article class="release">
-							<h5>Heroku Integration*</h5>
-								<ul>
-									<li>Deploy your projects to Heroku.</li>
-									<li>Get the deployment status as push notifications.</li>
-									<li>*The Heroku add-on can be purchased as a 3-month subscription.</li>
+									<li>Show and edit GitHub issues for repositories.</li>
+									<li>Import or create GitHub gists.</li>
+									<li>Create new files in your GitHub gists.</li>
+									<li>Commit modified files to GitHub gists.</li>
 								</ul>
 							</article>
 
@@ -341,7 +369,7 @@
 								<ul>
 									<li>Written using native iOS APIs, e.g. Core Text.</li>
 									<li>Edit small or large files, e.g. 10000-line files.</li>
-									<li>Syntax highlighting support for Python, Ruby, HTML, CSS, and JavaScript files.</li>
+                                    <li>Syntax highlighting support for Python, Ruby, HTML, CSS, JavaScript, C, Java, Objective-C, and PHP files.</li>
 									<li>Fast and responsive.</li>
 									<li>Easy access to multiple files with editor tabs.</li>
 									<li>Autosave content during an editing session.</li>
@@ -351,9 +379,11 @@
 							</article>
 
 							<article class="release">
-							<h5>Miscellaneous</h5>
+							<h5>Assistant View</h5>
 								<ul>
-									<li>The library view that shows the programming language reference.</li>
+									<li>Support for a secondary tabbed editor.</li>
+									<li>Built-in web browser.</li>
+                                    <li>Automatic reference view that displays the reference manual for the selected file.</li>
 								</ul>
 							</article>
 
@@ -373,39 +403,39 @@
 				<div class="screenshot_grid content_box">
 					
 					<div class="one_third">
-						<a href="images/screenshots/screen1.png" class="fancybox" rel="group" title="Screenshot 1"><img src="images/screenshots/screen1.png" alt="" /></a>
+						<a href="images/screenshots/2.0/screen1.png" class="fancybox" rel="group" title="Screenshot 1"><img src="images/screenshots/2.0/screen1.png" alt="" /></a>
 					</div>
 
 					<div class="one_third">
-						<a href="images/screenshots/screen2.png" class="fancybox" rel="group" title="Screenshot 2"><img src="images/screenshots/screen2.png" alt="" /></a>
+						<a href="images/screenshots/2.0/screen2.png" class="fancybox" rel="group" title="Screenshot 2"><img src="images/screenshots/2.0/screen2.png" alt="" /></a>
 					</div>
 					
 					<div class="one_third column_last">
-						<a href="images/screenshots/screen3.png" class="fancybox" rel="group" title="Screenshot 3"><img src="images/screenshots/screen3.png" alt="" /></a>
+						<a href="images/screenshots/2.0/screen3.png" class="fancybox" rel="group" title="Screenshot 3"><img src="images/screenshots/2.0/screen3.png" alt="" /></a>
 					</div>
 					
 					<div class="one_third">
-						<a href="images/screenshots/screen4.png" class="fancybox" rel="group" title="Screenshot 4"><img src="images/screenshots/screen4.png" alt="" /></a>
+						<a href="images/screenshots/2.0/screen4.png" class="fancybox" rel="group" title="Screenshot 4"><img src="images/screenshots/2.0/screen4.png" alt="" /></a>
 					</div>
 
 					<div class="one_third">
-						<a href="images/screenshots/screen5.png" class="fancybox" rel="group" title="Screenshot 5"><img src="images/screenshots/screen5.png" alt="" /></a>
+						<a href="images/screenshots/2.0/screen5.png" class="fancybox" rel="group" title="Screenshot 5"><img src="images/screenshots/2.0/screen5.png" alt="" /></a>
 					</div>
 					
 					<div class="one_third column_last">
-						<a href="images/screenshots/screen6.png" class="fancybox" rel="group" title="Screenshot 6"><img src="images/screenshots/screen6.png" alt="" /></a>
+						<a href="images/screenshots/2.0/screen6.png" class="fancybox" rel="group" title="Screenshot 6"><img src="images/screenshots/2.0/screen6.png" alt="" /></a>
 					</div>
 					
 					<div class="one_third">
-						<a href="images/screenshots/screen7.png" class="fancybox" rel="group" title="Screenshot 7"><img src="images/screenshots/screen7.png" alt="" /></a>
+						<a href="images/screenshots/2.0/screen7.png" class="fancybox" rel="group" title="Screenshot 7"><img src="images/screenshots/2.0/screen7.png" alt="" /></a>
 					</div>
 
 					<div class="one_third">
-						<a href="images/screenshots/screen8.png" class="fancybox" rel="group" title="Screenshot 8"><img src="images/screenshots/screen8.png" alt="" /></a>
+						<a href="images/screenshots/2.0/screen8.png" class="fancybox" rel="group" title="Screenshot 8"><img src="images/screenshots/2.0/screen8.png" alt="" /></a>
 					</div>
 					
 					<div class="one_third column_last">
-						<a href="images/screenshots/screen9.png" class="fancybox" rel="group" title="Screenshot 9"><img src="images/screenshots/screen9.png" alt="" /></a>
+						<a href="images/screenshots/2.0/screen9.png" class="fancybox" rel="group" title="Screenshot 9"><img src="images/screenshots/2.0/screen9.png" alt="" /></a>
 					</div>
 					
 				</div>
@@ -420,7 +450,43 @@
 				
 				<div class="releases">
 					<article class="release">
-						<h2>Version 1.2.2</h2>
+						<h2>Version 2.0 (iPad)</h2>
+						<span class="date">Released on December 9th, 2012</span>
+						<ul>
+							<li class="new"><span><b>New</b></span> Support for GitHub issues</li>
+							<li class="new"><span><b>New</b></span> Support for GitHub gists</li>
+							<li class="new"><span><b>New</b></span> Support for GitHub organization repositories</li>
+							<li class="new"><span><b>New</b></span> Support for creating and reimporting repositories</li>
+							<li class="new"><span><b>New</b></span> Assistant view that shows an editor, a web browser, or a reference manual</li>
+							<li class="new"><span><b>New</b></span> Multi-editor support</li>
+							<li class="new"><span><b>New</b></span> Built-in web browser</li>
+							<li class="new"><span><b>New</b></span> Automatic reference that shows the manual for the selected file</li>
+							<li class="new"><span><b>New</b></span> A keyboard shortcut with a cursor navigation key</li>
+							<li class="change"><span><b>Change</b></span> Removed the user-defined editor themes</li>
+							<li class="change"><span><b>Change</b></span> Removed the user-defined keyboard shortcuts</li>
+							<li class="change"><span><b>Change</b></span> Removed the Heroku deployment add-on</li>
+							<li class="change"><span><b>Change</b></span> Removed the code execution add-on</li>
+							<li class="change"><span><b>Change</b></span> The user interface</li>
+							<li class="change"><span><b>Change</b></span> The text editor engine</li>
+							<li class="change"><span><b>Change</b></span> The source code syntax highlighter</li>
+							<li class="fix"><span><b>Fix</b></span> A bug in repository listing that shows only the first 30 repositories</li>
+							<li class="fix"><span><b>Fix</b></span> Syntax highlighting for multi-line comments</li>
+							<li class="fix"><span><b>Fix</b></span> An issue with the tab character location</li>
+							<li class="fix"><span><b>Fix</b></span> Performance issues</li>
+							<li class="fix"><span><b>Fix</b></span> The application memory usage</li>
+						</ul>
+					</article>
+
+					<article class="release">
+						<h2>Version 1.0 (iPhone)</h2>
+						<span class="date">Released on December 7th, 2012</span>
+						<ul>
+							<li class="new"><span><b>New</b></span> Initial release</li>
+						</ul>
+					</article>
+
+					<article class="release">
+						<h2>Version 1.2.2 (iPad)</h2>
 						<span class="date">Released on July 4th, 2012</span>
 						<ul>
 							<li class="new"><span><b>New</b></span> Support for executing small Python or Ruby scripts through add-ons</li>
@@ -436,7 +502,7 @@
 					</article>
 
 					<article class="release">
-						<h2>Version 1.2.1</h2>
+						<h2>Version 1.2.1 (iPad)</h2>
 						<span class="date">Released on May 21st, 2012</span>
 						<ul>
 							<li class="fix"><span><b>Fix</b></span> Possible crashes when the GitHub account contains empty projects</li>
@@ -444,7 +510,7 @@
 					</article>
 
 					<article class="release">
-						<h2>Version 1.2</h2>
+						<h2>Version 1.2 (iPad)</h2>
 						<span class="date">Released on May 20th, 2012</span>
 						<ul>
 							<li class="new"><span><b>New</b></span> Support for Heroku deployment through add-ons</li>
@@ -455,7 +521,7 @@
 					</article>
 
 					<article class="release">
-						<h2>Version 1.1.1</h2>
+						<h2>Version 1.1.1 (iPad)</h2>
 						<span class="date">Released on April 28th, 2012</span>
 						<ul>
 							<li class="new"><span><b>New</b></span> Support for creating new files and folders</li>
@@ -469,7 +535,7 @@
 					</article>
 
 					<article class="release">
-						<h2>Version 1.1</h2>
+						<h2>Version 1.1 (iPad)</h2>
 						<span class="date">Released on March 13th, 2012</span>
 						<ul>
 							<li class="new"><span><b>New</b></span> Support for multiple editor tabs</li>
@@ -484,7 +550,7 @@
 					</article>
 					
 					<article class="release">
-						<h2>Version 1.0.1</h2>
+						<h2>Version 1.0.1 (iPad)</h2>
 						<span class="date">Released on March 4th, 2012</span>
 						<ul>
 							<li class="new"><span><b>New</b></span> Support for private repositories</li>
@@ -498,7 +564,7 @@
 					</article>
 					
 					<article class="release">
-						<h2>Version 1.0</h2>
+						<h2>Version 1.0 (iPad)</h2>
 						<span class="date">Released on February 21st, 2012</span>
 						<ul>
 							<li class="new"><span><b>New</b></span> Initial release</li>
@@ -532,7 +598,7 @@
 								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
 							</div>
 							<div class="content">
-								<p>Worqshop requires an iPad with iOS 5 and a <a href="https://github.com/plans">GitHub account</a>.</p>
+								<p>Worqshop requires an iOS device with iOS 6 and a <a href="https://github.com/plans">GitHub account</a>.</p>
 							</div>
 						</li>
 						<li>
@@ -546,7 +612,7 @@
 						</li>
 						<li>
 							<div class="title">
-								<h3><span>Q.</span> Does Worqshop support other GitHub operations (e.g. merge, pull) or features (e.g. issues)?</h3>
+								<h3><span>Q.</span> Does Worqshop support other GitHub operations (e.g. merge, pull) or features (e.g. wikis)?</h3>
 								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
 							</div>
 							<div class="content">
@@ -555,7 +621,7 @@
 						</li>
 						<li>
 							<div class="title">
-								<h3><span>Q.</span> How about themes, line number, or syntax highlighting for other files?</h3>
+								<h3><span>Q.</span> How about text search, line number, or code completion?</h3>
 								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
 							</div>
 							<div class="content">
@@ -568,9 +634,7 @@
 								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
 							</div>
 							<div class="content">
-								<p>In the case of GitHub operations, no, we don't upload your project data to our server. Your project files are sent directly to GitHub. However, when you deploy your project to Heroku, we upload it to our server for the deployment. This is strictly done because of a technical limitation. Heroku only accepts deployment through Git but at the moment there is no Git remote support that can be incorporated into Worqshop.</p>
-								<p>Whilst we continue to try to find a better solution, deployment to Heroku requires our server.</p>
-								<p><strong>We respect your privacy</strong>. Project files submitted to our server are only used for the Heroku deployment. We do not read the source code files and we do not disclose them to other parties. The files are removed from the server periodically.</p>
+                                <p>No. We don't upload your project data to our server. Your project files are sent directly to GitHub.</p>
 							</div>
 						</li>
 						<li>
@@ -579,7 +643,7 @@
 								<a href="javascript:;" class="toggle_link" data-open_text="+" data-close_text="-"></a>
 							</div>
 							<div class="content">
-								<p>No, the price covers future updates, e.g. new features or bug fixes, for version 1 of Worqshop; and you will get the updates for free.</p>
+                                <p>No, the price covers future updates, e.g. new features or bug fixes, for version 2 of Worqshop; and you will get the updates for free.</p>
 							</div>
 						</li>
 					</ul>
